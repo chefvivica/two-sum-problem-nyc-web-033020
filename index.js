@@ -9,13 +9,7 @@
 //   else left++
 // }
 // }
-describe('#bruteForceTwoSum', function() {
-	it("collects each pair of numbers with a matching sum", function() {
-		let array = [2, 3, 4, 3, 6, 7]
-		let sum = 6
-		expect(bruteForceTwoSum(array, sum)).toEqual([[2, 4], [3, 3]])
-	})
-})
+
 const bruteForceTwoSum = (array, sum) => {
   let list = []
   for(let i = 0 ; i < array.length; i++){

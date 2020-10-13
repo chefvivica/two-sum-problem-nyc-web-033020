@@ -11,3 +11,6 @@ const bruteForceTwoSum = (array, sum) => {
   return list
 }
 
+const binarySearchTwoSum = () => {
+  
+}

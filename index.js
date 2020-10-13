@@ -10,3 +10,4 @@ const bruteForceTwoSum = (array, sum) => {
   }
   return list
 }
+
